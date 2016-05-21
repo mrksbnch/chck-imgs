@@ -1,6 +1,6 @@
 {
   "name": "chck-imgs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lightweight JavaScript plugin to check if one or multiple images are loaded",
   "main": "dist/chckImgs.js",
   "jsnext:main": "src/chckImgs.js",

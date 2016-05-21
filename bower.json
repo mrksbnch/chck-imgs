@@ -1,0 +1,23 @@
+{
+  "name": "chck-imgs",
+  "version": "0.0.2",
+  "description": "Lightweight JavaScript plugin to check if one or multiple images are loaded",
+  "main": "dist/chckImgs.js",
+  "authors": [
+    "Markus Bianchi"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "images",
+    "loaded",
+    "preload"
+  ],
+  "homepage": "https://github.com/mrksbnch/chck-imgs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
