@@ -1,6 +1,18 @@
 # Chck Imgs
 `chckImgs` is a lightweight (< 400 bytes gzipped) JavaScript plugin to check if one or multiple images are loaded.
 
+## Install
+**NPM**
+
+```shell
+npm install --save chck-imgs
+```
+
+**Bower**
+```shell
+bower install --save chck-imgs
+```
+
 ## Usage
 ```javascript
     /**
