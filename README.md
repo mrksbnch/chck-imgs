@@ -4,7 +4,7 @@
 ## Usage
 ```javascript
     /**
-     * `chckImgs` will always resolve with an array, even if one or multiple images failed to load
+     * `chckImgs` will always resolve with an array, even if one or multiple images failed to load.
      * You can loop through this array and check the `status` (`ok` or `error`) for each image
      *
      * @param  {...String} paths
