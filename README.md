@@ -15,16 +15,16 @@ bower install --save chck-imgs
 
 ## Usage
 ```javascript
-    /**
-     * `chckImgs` will always resolve with an array, even if one or multiple images failed to load.
-     * You can loop through this array and check the `status` (`ok` or `error`) for each image
-     *
-     * @param  {...String} paths
-     * @return {Promise.<{{path: String, status: String}}>}
-     */
-    chckImgs('img.jpg', 'img2.jpg').then(function(imgs) {
-        // All images are either loaded or failed to load.
-    });
+/**
+ * `chckImgs` will always resolve with an array, even if one or multiple images failed to load.
+ * You can loop through this array and check the `status` (`ok` or `error`) for each image
+ *
+ * @param  {...String} paths
+ * @return {Promise.<{{path: String, status: String}}>}
+ */
+chckImgs('img.jpg', 'img2.jpg').then(function(imgs) {
+    // All images are either loaded or failed to load.
+});
 ```
 
 ## Browser Support
