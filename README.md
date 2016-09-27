@@ -1,5 +1,5 @@
 # Chck Imgs
-`chckImgs` is a lightweight (< 400 bytes gzipped) JavaScript plugin to check if one or multiple images are loaded.
+`chckImgs` is a lightweight (< 400 bytes gzipped) JavaScript function to check if one or multiple images are loaded.
 
 ## Install
 **NPM**
@@ -23,8 +23,7 @@ bower install --save chck-imgs
      * @return {Promise.<{{path: String, status: String}}>}
      */
     chckImgs('img.jpg', 'img2.jpg').then(function(imgs) {
-        // All images are either loaded or failed to load. If necessary, you can loop over the
-        // `imgs` array to check the `status`
+        // All images are either loaded or failed to load.
     });
 ```
 
